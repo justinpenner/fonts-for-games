@@ -1,3 +1,5 @@
+![alt text](https://github.com/justinpenner/fonts-for-games/blob/main/cover.png?raw=true)
+
 # Fonts for video games: overlooked and underserved
 
 This repo contains the script from my 2021 presentation at TypeWknd (linked below), and a PDF of the slide deck.
