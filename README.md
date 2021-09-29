@@ -8,7 +8,7 @@ https://2021.typewknd.com/conference/fonts-for-video-games-overlooked-and-unders
 
 ## Introduction
 
-Alright, hey everyone! I'm Justin Penner, and I'm a typeface designer based in Vancouver, Canada. This presentation is about fonts and video game development. I've been researching how game developers use fonts, and I've made a lot of interesting discoveries, which I'll break up into 3 parts in this talk:
+Alright, hey everyone! I'm [Justin Penner](https://justinpenner.ca/), and I'm a typeface designer based in Vancouver, Canada. This presentation is about fonts and video game development. I've been researching how game developers use fonts, and I've made a lot of interesting discoveries, which I'll break up into 3 parts in this talk:
 
 In the first part, I'm going to talk about how game developers use fonts, how fonts work in game engines, and some of the technical considerations that type designers may want to take into account when designing fonts for games.
 
@@ -16,11 +16,11 @@ In the second part, I want to look at what sorts of opportunities there might be
 
 And in the third part, I'll focus on how type designers and foundries can help build a better ecosystem for fonts and typography in video games.
 
-## Font support in game engines
+## Section 01: Font support in game engines
 
 Game developers can use a wide array of software engines to develop games, and each engine has different capabilities for importing fonts and rendering them in-game.
 
-First, for some background, Unity and Unreal are the two game engines you'll hear about most. They're by far the most popular game engines, and are used for a lot of top tier blockbuster games. Then of course, there are many smaller game engines like Godot or RPG Maker, which are popular among indie game creators.
+First, for some background, [Unity](https://unity.com/) and [Unreal](https://www.unrealengine.com/) are the two game engines you'll hear about most. They're by far the most popular game engines, and are used for a lot of top tier blockbuster games. Then of course, there are many smaller game engines like [Godot](https://godotengine.org/) or [RPG Maker](https://www.rpgmakerweb.com/), which are popular among indie game creators.
 
 In most game engines, you import assets into your project before you can use them. Assets can be images, sprites, 3D models, audio clips, or in this case—fonts.
 
@@ -32,17 +32,17 @@ In 3D game engines, you still don't get to use fonts in any kind of vector forma
 
 So, since most game engines require fonts to be rasterized before importing into a game project, that means there's very little support for any kind of OpenType features or text shaping. No ligatures, no contextual alternates, no shaping for complex scripts like Arabic and Devanagari.
 
-## Opportunities for type designers & foundries in the game industry
+## Section 02: Opportunities for type designers & foundries in the game industry
 
 So, the next question I want to answer is, what kinds of opportunities are there for type designers and foundries, in the gaming industry?
 
 Well, that's one of the main reasons I wanted to do this talk, because I see some gaps where game developers aren't being served by type foundries, and some problems that need solving.
 
-### Opportunity 1: Lack of fonts in game developer marketplaces
+### Selling via game developer marketplaces
 
-If you log onto a marketplace for game developers like Itch.io, ArtStation, or Unreal and Unity's official marketplaces, you might find a few fonts, but not a lot of options. Sure, game developers can get fonts from the distributors we know like MyFonts, Adobe Fonts, Google Fonts, but that brings me to the next opportunity: licensing.
+If you log onto a marketplace for game developers like [Itch.io](https://itch.io/), [ArtStation](https://www.artstation.com/), or Unreal and Unity's official marketplaces, you might find a few fonts, but not a lot of options. Sure, game developers can get fonts from the distributors we know like MyFonts, Adobe Fonts, Google Fonts, but that brings me to the next opportunity: licensing.
 
-### Opportunity 2: Making licenses workable for game development
+### Making licenses workable for game development
 
 Font licensing can get really messy with game development. Being an independent type designer who recently started selling my own commercial fonts, I've researched and read a lot of font licenses from many different foundries, and I think there are some fundamental flaws in the way we write license terms, and how a game developer might interpret those terms.
 
@@ -50,13 +50,13 @@ For example, is a game an app? Probably yes, but what if it's a web-based game? 
 
 Bottom line, there are a ton of type foundries out there whose license terms are at best confusing and at worst completely unworkable for game developers.
 
-### Opportunity 3: More pixel fonts!
+### More pixel fonts!
 
 Not all game use pixel fonts, but they're enormously popular in both 2D *and* 3D games. Not enough type foundries take pixel fonts seriously, and it's actually quite difficult for a game developer to find a pixel font that meets their requirements. There are endless pixel fonts availabe, but the problems with them are endless too: many are unauthorized knock-offs of someone else's work, or they have very limited character sets, or the license terms are unclear and the designer is unreachable, or the font is just poorly designed. It's not uncommon for game creators to end up creating their own font for a project.
 
 There's really a huge gap for reputable type foundries and designers to create high-quality pixel fonts with extended language support, for both text and display. Designing a pixel font is often very quick, so it's surprising that there aren't more options already.
 
-## Better typography in games
+## Section 3: Better typography in games
 
 So, what can type designers and foundries do to help improve typography in video games?
 
@@ -76,9 +76,9 @@ Many game engines can import any font you like, but as I explained earlier, you 
 
 One more important thing that's needed is more software tools related to typography and game development. We have a lot of brilliant coders and developers in our community, and I can think of at least a few needs that aren't being met with the current tools available for both type designers and game developers.
 
-One good example is the BMFont format for bitmap fonts, which is used by many game engines, but is not supported by most font editors. It would be great to see maybe some plugins to allow type designers to export directly to the BMFont format, and maybe even look for ways to extend the format to support more features beyond just kerning. The BMFont format is used widely among game engines, so I think it would be worth working on tools related to it.
+One good example is the [BMFont format](https://www.angelcode.com/products/bmfont/doc/file_format.html) for bitmap fonts, which is used by many game engines, but is not supported by most font editors. It would be great to see maybe some plugins to allow type designers to export directly to the BMFont format, and maybe even look for ways to extend the format to support more features beyond just kerning. The BMFont format is used widely among game engines, so I think it would be worth working on tools related to it.
 
-It might also be nice to see some kind of a universal cross-platform tool for generating bitmap fonts, with both a command line and graphical interface. As it stands there are a few separate tools out there, but the one most game developers use is the original BMFont app by AngelCode, who developed the BMFont format, but the app is closed-source and Windows-only.
+It might also be nice to see some kind of a universal cross-platform tool for generating bitmap fonts, with both a command line and graphical interface. As it stands there are a few separate tools out there, but the one most game developers use is the original [BMFont app by AngelCode](https://www.angelcode.com/products/bmfont/), who developed the BMFont format, but the app is closed-source and Windows-only.
 
 Lastly, I know some coders in our community are interested in improving tools like shaping engines, which enable support for languages with complex writing systems like Devanagari and Arabic. I don't know of a single game engine that fully supports complex writing systems, and most have zero support at all. I'm sure there are communities of for example Arabic game developers who have figured out some workarounds to develop games in Arabic with particular game engines, but the biggest problem is localization – many games are developed in English first, and then translated or localized so they can be released in different regions around the world, so it's really unfair if some languages are left out simply because they happen to use a complex writing system.
 
