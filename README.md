@@ -2,9 +2,9 @@
 
 # Fonts for video games: overlooked and underserved
 
-This repo contains the script from my 2021 presentation at TypeWknd (linked below), and a PDF of the slide deck.
+This repo contains the script from [my 2021 presentation at TypeWknd](https://2021.typewknd.com/conference/fonts-for-video-games-overlooked-and-underserved) ([watch on YouTube – starts at 3:01:30](https://www.youtube.com/watch?v=7dbJ9nOgtvs&t=10890s)), and a PDF of the slide deck.
 
-https://2021.typewknd.com/conference/fonts-for-video-games-overlooked-and-underserved
+
 
 ## Introduction
 
